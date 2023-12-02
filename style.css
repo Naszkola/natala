@@ -1,0 +1,28 @@
+#napis, #napisz {
+    text-align: center; /* Wycentrowanie tekstu */
+    padding-top:50px ;
+}
+
+/* Styl dla lewych obrazów (pnglewe, pnglewev2) */
+#pnglewe, #pnglewev2 {
+    clear: both; /* Anulowanie float */
+    margin-bottom: 10px; /* Odstęp na dole */
+}
+
+/* Styl dla prawych obrazów (pngprawe, pngprawev2) */
+#pngprawe, #pngprawev2 {
+    clear: both; /* Anulowanie float */
+    margin-bottom: 10px; /* Odstęp na dole */
+}
+#lewy-container {
+    float: left; /* Ustawienie na lewo */
+    margin-right: 20px; /* Odstęp z prawej strony */
+    margin-bottom: 10px; /* Odstęp na dole */
+}
+
+/* Styl dla prawych obrazów (pngprawe, pngprawev2) */
+#prawy-container {
+    float: right; /* Ustawienie na prawo */
+    margin-left: 20px; /* Odstęp z lewej strony */
+    margin-bottom: 10px; /* Odstęp na dole */
+}
